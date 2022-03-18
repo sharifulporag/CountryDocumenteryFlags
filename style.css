@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.card-section {
+    width: 33%;
+    /* background: red; */
+    float: left;
+}
+.card-section{
+    text-align: left;
+    color: #D8363F;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+.card-img img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content{
+    text-align: left;
+    padding: 10px;
+}
+
+.card-content h3{
+    margin: 10px 0;
+}
+.card-content p{
+    margin: 10px 0;
+}
+
+.select-country{
+    background-color: #D8363F;
+    padding: 20px;
+    text-align: center;
+}
+.select-country input{
+    background-color: rgba(128, 128, 128, 0.452);
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: 100;
+    text-transform: lowercase;
+}
+.select-country .btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    color: crimson;
+    font-size: 20px;
+    background-color: #808080da;
+}
